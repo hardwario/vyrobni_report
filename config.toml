@@ -1,0 +1,61 @@
+baseURL = "https://vyrobni.report"
+homeURL = "/"
+DefaultContentLanguage = "cs"
+pygmentsUseClassic = false
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[params]
+  menuNames = ["main","footer","services"]
+  homeURL = "/"
+  productionURL = "https://vyrobni.report"
+
+[languages]
+  #[languages.en]
+   # LanguageName = "English"
+    #weight = 1
+    #[languages.en.params]
+     # baseURL = "/en/"
+  [languages.cs]
+    LanguageName = "Česky"
+    weight = 3
+    [languages.cs.params]
+      baseURL = "/"
+
+[[languages.cs.menu.main]]
+  url    = "#how"
+  name   = "Jak to funguje"
+  pre = ""
+  post = ""
+  weight = 5
+
+[[languages.cs.menu.main]]
+  url    = "#price"
+  name   = "Cena"
+  pre = ""
+  post = ""
+  weight = 15
+
+[[languages.cs.menu.main]]
+  url    = "#meeting"
+  name   = "Kontakt"
+  pre = ""
+  post = ""
+  weight = 25
+
+[blackfriday]
+smartypants = false
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  tag = "tags"
+  category= "categories"
+
+[outputs]
+        home = [ "HTML", "JSON"]
+        page = [ "HTML"]

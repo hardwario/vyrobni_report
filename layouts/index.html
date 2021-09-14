@@ -1,0 +1,400 @@
+{{ define "main" }}
+
+
+{{ $currentLang := .Site.Language.Lang }}
+
+<section>
+  <div class="bg bg-image1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-7 pt-0 pt-60">
+          <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-40 pt-md-20 pb-20">
+            Monitoring efektivity zařízení s&nbsp;okamžitou návratností investice
+          </h1>        
+          <p class = "font-18 font-lnh28 pb-20">Snadno, rychle a bezpečně. Systémem monitoringu na bázi internetu věci.</p>
+          <div>
+            <a href="#video" class="playVideo cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">Přehrát video</a>
+            <a href="#benefits" class="cta-button font-lnh54 px-40 mb-30 mb-md-0 d-inline-block font-font2 font-orange font-decoration-underline">Zjistit více</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id = "playVideo" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row justify-content-center">
+              <div class="col-md-12 text-center youtube">
+                <iframe src="https://www.youtube.com/embed/FHyBZQ3g-2M?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" title="vyrobni.report" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg pb-30" style="overflow: hidden; display:block" id = "benefits">
+    <div class="container text-center">
+      <div class = "row">
+        <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+          <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>Pusťme se do toho</span></div>
+      </div>
+      </div>
+      <div class="row">
+         
+          <div class = "col-4">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-20 pb-md-10">30 dní na vyzkoušení</h3>
+            <p>Společně ověříme funkčnost a přínosy systému na jednom vašem zařízení. Test je na 30 dní zdarma a&nbsp;bez závazku.</p>
+          </div>
+          <div class = "col-4">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-20 pb-md-10">Neinazivní metoda</h3>
+            <p>Nemusíte měnit vaše procesy a nástroje. Data získáme bez zásahu do vašeho zařízení a pošleme je bezpečnou nezávislou bezdrátovou sítí.</p>
+          </div>
+          <div class = "col-4">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-20 pb-md-10">Okamžitá návratnost</h3>
+            <p>Postupná implementace bez nutnosti změny vašich procesů a nástrojů s okamžitou návratností vaší&nbsp;investice.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg bg--gray" id = "how">
+      <div class="container py-30">
+        <div class="row">
+          <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+              <h2 class="text-center pb-20 font-weight-black pt-60 font-30 font-md-64">Jak to funguje</h2>
+          </div>
+      </div>
+          <div class="row">
+            <div class = "col-6">
+              <img src = "/_assets/images/process-1.jpg" id = "collapsor-image" class = "img-fluid pt-40" />
+            </div>
+              <div class="col-6">
+                
+                  <div class="collapsor pt-10" id = "process">
+                    <div class="collapsor__item" img-url = "/_assets/images/process-1.jpg">
+                      <h3 class="collapsor__header collapsor__header--active">1. Domluva schůzku</h3>
+                      <div class="collapsor__body collapsor__body--active">
+                          Nechte nám na vás kontakt, domluvíme se na termínu online schůzky. Probereme vaše zařízení, které chcete monitorovat a možnosti připojení. Pokud to bude potřeba, domluvíme se na osobním setkání.
+                      </div>
+                  </div>
+                  
+                  <div class="collapsor__item" img-url = "/_assets/images/process-2.png">
+                      <h3 class="collapsor__header">2. Výběr způsobu měření a senzorů</h3>
+                      <div class="collapsor__body">
+                          Podle typu zařízení zvolíme způsob měření a nejvhodnější senzory. Nejčastěji využíváme tyto metody připojení:
+                          <ul>
+                            <li>Optický senzor</li>
+                            <li>Kapacitní senzor</li>
+                            <li>Magnetický senzor</li>
+                            <li>Hallova sonda</li>
+                            <li>Napojení na analogový výstup stroje</li>
+                            <li>Napojení na digitální výstup stroje</li>
+                          </ul> 
+                      </div>
+                  </div>
+
+                  <div class="collapsor__item" img-url = "/_assets/images/process-3.png">
+                    <h3 class="collapsor__header">3. Způsob vizualizace a reporting</h3>
+                    <div class="collapsor__body">
+                      Nebudeme nahrazovat nástroje a aplikace, se kterými se vám dobře pracujeme. Najdeme způsob, jak do nich naměřená data přenést.
+                      Pokud doposud žádnou vhodnou aplikaci nepoužíváte, poradíme vám s výběrem. Většinou používáme Power BI nebo Ubidots.
+                      <br/><br/>
+                      Příklady výstupů:
+                      <ul>
+                        <li><a href = "https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection" target="_blank">PowerBI</a></li>
+                        <li><a href = "https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection" target="_blank">Ubidots</a></li>
+                      </ul>
+                    </div>
+                </div>
+
+                  <div class="collapsor__item" img-url = "/_assets/images/process-4.jpg">
+                    <h3 class="collapsor__header">4. Odeslání zařízení a instalace</h3>
+                    <div class="collapsor__body">
+                        Zařízení včetně senzorů zašleme k vám. Pokud si neporadíte s instalací svépomocí, vyšleme k vám někoho od nás.
+                    </div>
+                </div>
+                  
+                <div class="collapsor__item" img-url = "/_assets/images/process-5.jpg">
+                  <h3 class="collapsor__header">5. Sledování a vyhodnocení</h3>
+                  <div class="collapsor__body">
+                      Data o výrobě budete mít okamžitě ve svém počítači i telefonu. Budou k dispozici pro vyhodnocení efektivity vaší výroby a návratnosti celé investice. Společně se na data podíváme a vyhodnotíme přínosy.
+                  </div>
+              </div>
+
+              <a href="#meeting" class="cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">Domluvit schůzku</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+<script>
+  $('#process .collapsor__item').click(function(){
+    var image = $(this).attr('img-url');
+    $('#collapsor-image').attr('src',image);
+  });
+</script>
+
+</section>
+
+<section>
+  <div class="container">
+    
+      <div class="row align-items-center pb-10">
+          
+         <!--<div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+              <div class="font-redLined font-red mb-20 font-font2 font-weight-bold font-15"><span>Důvěřují nám</span></div>
+          </div>-->
+          <div class="col-12 text-center">
+              
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="135" src="/_assets/images/partners/otk.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="135" src="/_assets/images/partners/skoda.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="115" src="/_assets/images/partners/skanska.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="95" src="/_assets/images/partners/tpca.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="135" src="/_assets/images/partners/arcelormittal.svg" alt="" />
+              </span>
+              <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
+                  <img width="95" src="/_assets/images/partners/surun.svg" alt="" />
+              </span>
+          </div>
+          <!--<div class = "col-12 text-center pt-40">
+              <a href="{{ "case-studies/" | absLangURL }}" class="d-block d-md-inline-block font-lnh24 py-15 px-10 px-md-50 d-inline-block font-weight-bold font-font2 font-white bg-red">{{ i18n "other_case_studies" }}</a>
+          </div>-->
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg bg--gray" id = "price">
+      <div class="container ">
+          <div class="row">
+              <div class="col">
+                <div class="row">
+                    <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
+                        <h2 class="text-center pb-20 font-weight-black pt-60 font-30 font-md-64">Cena</h2>
+                    </div>
+                </div>
+                  <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40 mb-40">
+                      <div class="row no-gutters">
+                        <div class="col-12 col-md-4">
+                          <div class="pricelist__item">
+                            <div class="pricelist__content">
+                              <h3 class="pricelist__title">36 měsíců</h3>
+                        <!--
+                              <div class="product__images d-flex align-items-center justify-content-center">
+                                  <img src="/kits-images/" alt="" />
+                              </div>
+                        
+                        
+                              <div class="pricelist__title2">Text</div>
+                            -->
+                              <ul class="pricelist__items">
+                                
+                                <li class="pricelist__items__item">Pronájem zařízení na 36 měsíců</li>
+                                <li class="pricelist__items__item">Reporting dat přes Power BI nebo Ubidots</li>
+                                <li class="pricelist__items__item">Přístup k REST API a Callbackům pro vlastní integraci</li>
+                                <li class="pricelist__items__item">Bezplatná výměna při poruše do 48 hodin</li>
+                                <li class="pricelist__items__item">Pojištění proti krádeži a zničení</li>
+                                <li class="pricelist__items__item">Senzor pro monitoring stroje</li>
+                              </ul>
+                                <div class="pricelist__discount pt-40">Ušetříte 51 %</div>
+                              <div class="pricelist__price">490 CZK / měsíc</div>
+                               <!--<div class="pricelist__button">
+                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
+                              </div>-->
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                        <div class="col-12 col-md-4">
+                          <div class="pricelist__item pricelist__item--rec">
+                            <div class="pricelist__content">
+                              <div class="pricelist__rec">Populární</div>
+                              <h3 class="pricelist__title">24 měsíců</h3>
+                        <!--
+                              <div class="product__images d-flex align-items-center justify-content-center">
+                                  <img src="/kits-images/" alt="" />
+                              </div>
+                        
+                        
+                              <div class="pricelist__title2">Text</div>-->
+                              <ul class="pricelist__items">
+                                <li class="pricelist__items__item">Pronájem zařízení na 24 měsíců</li>
+                                <li class="pricelist__items__item">Reporting dat přes Power BI nebo Ubidots</li>
+                                <li class="pricelist__items__item">Přístup k REST API a Callbackům pro vlastní integraci</li>
+                                <li class="pricelist__items__item">Bezplatná výměna při poruše do 48 hodin</li>
+                                <li class="pricelist__items__item">Pojištění proti krádeži a zničení</li>
+                                <li class="pricelist__items__item minus pricelist__items__item--disabled">Senzor pro monitoring stroje</li>
+                              </ul>
+                                <div class="pricelist__discount pt-40">Ušetříte 36 %</div>
+                              <div class="pricelist__price">640 CZK / měsíc</div>
+                               <!--<div class="pricelist__button">
+                                <a href="#" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-30 d-inline-block font-weight-bold font-font2 font-white bg-red">Toto</a>
+                              </div>-->
+                            </div>
+                          </div>
+                        </div>
+                        
+
+                        <div class="col-12 col-md-4">
+                          <div class="pricelist__item">
+                            <div class="pricelist__content">
+                              <h3 class="pricelist__title">Bez závazku</h3>
+                        <!--
+                              <div class="product__images d-flex align-items-center justify-content-center">
+                                  <img src="/kits-images/" alt="" />
+                              </div>
+                        
+                        
+                              <div class="pricelist__title2">Text</div>-->
+                        
+                              <ul class="pricelist__items">
+                                
+                                  <li class="pricelist__items__item">Okamžité ukončení služby</li>
+                                  <li class="pricelist__items__item">Reporting dat přes Power BI nebo Ubidots</li>
+                                  <li class="pricelist__items__item">Přístup k REST API a Callbackům pro vlastní integraci</li>
+                                  <li class="pricelist__items__item">Bezplatná výměna při poruše do 48 hodin</li>
+                                  <li class="pricelist__items__item">Pojištění proti krádeži a zničení</li>
+                                  <li class="pricelist__items__item minus pricelist__items__item--disabled">Senzor pro monitoring stroje</li>
+                              </ul>
+                              <div class="pricelist__discount pt-40" style = "visibility: hidden;"><!-- -->0 </div>
+                              <div class="pricelist__price">1 000 CZK / měsíc</div>
+                              <!--<div class="pricelist__button">
+                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
+                              </div>-->
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section>
+  <div class = "container" id = "meeting">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12 col-lg-12 bg-darkGray py-30 mb-60">
+        <div class = "row align-items-top">
+          <div class = "col-12 col-md-4 pt-md-50 px-50">
+              <img loading="lazy" src="/_assets/images/alan.png" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+              <p class = "font-white text-center pt-20">
+              <strong>Alan Fabik</strong><br/>
+              <a class = "font-white" href = "mailto:alan.fabik@hardwario.com">alan.fabik@hardwario.com</a><br/>
+              CEO a spoluzakladatel HARDWARIO</p>
+          </div>
+          <div class = "col-12 col-md-8 pt-30 pt-md-0 font-white">
+          <h3 class = "font-32 font-weight-bold pb-20">Nechte mi na vás kontakt, ozvu se</h3>
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+          <script>
+            hbspt.forms.create({
+            region: "na1",
+            portalId: "5453210",
+            formId: "a6a2121e-e838-4bd2-9d04-6d26ee773e96"
+          });
+          </script>
+      </div>
+  </div>
+  </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg bg--gray">
+      <div class="container">
+          <div class = "row">
+            <div class = "col-12 text-center">
+              <h2 class="font-40 font-weight-black pt-20">Vaše nejčastější dotazy</h2>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-12">
+                  <div class="collapsor pt-20">
+                    
+                    <div class="collapsor__item">
+                      <h2 class="collapsor__header collapsor__header--active">Jak probíhá program vyrobni.report?</h2>
+                      <div class="collapsor__body collapsor__body--active">
+                          Po odeslání formuláře vás Alan kontaktuje a domluvíte se na termínu společného telefonátu. Cílem je zjistit jakým způsobem můžeme vaše stroje sledovat a domluvit se na postupu nasazení. 
+                      </div>
+                  </div>
+
+                  <div class="collapsor__item">
+                      <h2 class="collapsor__header">Jak se k našim strojům připojíte? Zastavíte výrobu?</h2>
+                      <div class="collapsor__body">
+                          Podporujeme celou řadu metod připojení. Často se připojíme přímo na PLC stroje digitálními výstupy, například přes RS-485 (Modbus) nebo analogovými výstupy. Pokud to takto nejde, přichází na řadu kapacitní, magnetické a optické senzory. Ve většině případů není potřeba vaši výrobu vůbec zastavovat.
+                      </div>
+                  </div>
+                  <div class="collapsor__item">
+                    <h2 class="collapsor__header">Jak data o výrobě přenášíte? Je to bezpečné?</h2>
+                    <div class="collapsor__body">
+                        Data přenášíme bezdrátovou sítí NB-IoT od společnosti Vodafone. Má skvělé pokrytí včetně vnitřních prostor továren. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený.
+                    </div>
+                </div>
+                  <div class="collapsor__item">
+                    <h2 class="collapsor__header">Kde uvidím data?</h2>
+                    <div class="collapsor__body">
+                        V programu vyrobni.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = "https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection" target = "_blank">odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace. 
+                    </div>
+                </div>
+
+              <div class="collapsor__item">
+                <h2 class="collapsor__header">Je možné systém monitoringu také zakoupit, nebo je dostupný jen pronájem?</h2>
+                <div class="collapsor__body">
+                    Ano, zařízení a senzory si můžete také jednorázově zakoupit. Pravidelné poplatky jsou pak pouze za konektivitu do internetu a volitelně vizualizace a reporting. Podrobnosti probereme na úvodní schůzce.
+                </div>
+            </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+<script type="text/javascript">
+  $('.playVideo').click(function(){
+    $('#playVideo').modal({
+      keyboard: false
+    })
+  });
+
+</script>
+
+<script>
+  $("a[href^=\\#]").click(function(e) {
+    e.preventDefault();
+    var dest = $(this).attr('href');
+    console.log(dest);
+    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
+  });
+</script>
+
+
+
+{{ end }}

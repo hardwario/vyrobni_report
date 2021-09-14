@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+
+<section>
+  <div class="bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 col-md-8 pt-0 pb-30 pb-md-60">
+          <h1 class="font-weight-bold font-red font-40 font-md-52 font-lnh52 font-md-lnh60 pt-40 pt-md-20 pb-20">
+            Vaše cesta vzhůru může začít jedním e-mailem
+          </h1>  
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="bg">
+    <div class="container">
+      <div class="row pb-30">
+        <div class="col-12 col-md-4">
+          <h2 class = "font-34 font-weight-bold font-blue pb-30">Z Česka i Slovenska volejte Moravu:</h2>
+          <p class = "font-24 font-lnh36 pb-30">
+            <a href = "mailto:tomas.morava@liftia.cz">tomas.morava@liftia.cz</a><br/>
+            <a href = "tel:+420737250187">+420 737 250 187</a>
+          </p>
+          <p class = "font-18 font-lnh24 pb-30">
+          LIFTIA s.r.o.<br/>
+          U Jezu 525/4, 460 01, Liberec<br/>
+          IČ:06012442  DIČ:CZ06012442
+          </p>
+        </div>
+
+        <div class="col-12 col-md-6 d-flex align-items-stretch">
+          <form data-netlify="true" method="post" role="form" class="php-email-form w-100" name = "contact-form" action = "/kontakt/odeslano">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="email">E-mail<span class = "font-red">*</span></label>
+                <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="tel">Telefonní číslo</label>
+                <input type="tel" class="form-control" name="tel" id="tel" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="name">Jméno</label>
+                <input type="text" name="name" class="form-control" id="name" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <label for="lastname">Příjmení</label>
+                <input type="text" class="form-control" name="lastname" id="lastname" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="name">Zpráva<span class = "font-red">*</span></label>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div data-netlify-recaptcha="true"></div>
+            <div class=""><button class = "cta-button border-red font-24 font-lnh54 px-20 px-md-30 d-inline-block font-weight-bold font-white bg-red" type="submit">Odeslat zprávu</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+{{ end }}
+
+{{ define "additional-scripts" }}
+
+{{ end }}
