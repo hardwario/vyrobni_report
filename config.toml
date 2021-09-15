@@ -32,7 +32,7 @@ pygmentsUseClasses = true
 
 [[languages.cs.menu.main]]
   url    = "#price"
-  name   = "Cena"
+  name   = "Ceny"
   pre = ""
   post = ""
   weight = 15
