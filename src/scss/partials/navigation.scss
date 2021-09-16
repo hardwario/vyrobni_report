@@ -13,3 +13,16 @@
     background-color: #b1031e;
   }
 }
+
+.sticky{
+  &--scroll{
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 900;
+    top:0;
+    -webkit-box-shadow: 0 8px 6px -6px #ccc;
+    -moz-box-shadow: 0 8px 6px -6px #ccc;
+    box-shadow: 0 8px 6px -6px #ccc;
+  }
+}

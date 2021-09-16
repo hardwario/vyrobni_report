@@ -24,23 +24,30 @@ pygmentsUseClasses = true
       baseURL = "/"
 
 [[languages.cs.menu.main]]
+  url    = "#top"
+  name   = "Úvod"
+  pre = "sticky-top"
+  post = ""
+  weight = 1
+
+[[languages.cs.menu.main]]
   url    = "#how"
   name   = "Jak to funguje"
-  pre = ""
+  pre = "sticky-how"
   post = ""
   weight = 5
 
 [[languages.cs.menu.main]]
-  url    = "#price"
+  url    = "#pricelist"
   name   = "Ceny"
-  pre = ""
+  pre = "sticky-pricelist"
   post = ""
   weight = 15
 
 [[languages.cs.menu.main]]
   url    = "#meeting"
   name   = "Kontakt"
-  pre = ""
+  pre = "sticky-meeting"
   post = ""
   weight = 25
 

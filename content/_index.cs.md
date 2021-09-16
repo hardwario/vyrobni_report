@@ -1,7 +1,7 @@
 ---
 title: Úvod
 url: /
-menu: ["main"]
+menu: []
 weight: 1
 meta_title: Výrobni report - Monitoring efektivity zařízení s okamžitou návratností investice
 meta_description: 
