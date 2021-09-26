@@ -14,7 +14,7 @@
           <p class = "font-20 font-lnh28 pb-20">Snadno a bezpečně.</p>
           <div>
             <a href="#video" class="playVideo cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">Přehrát video</a>
-            <a href="#benefits" class="cta-button font-lnh54 px-40 mb-30 mb-md-0 d-inline-block font-font2 font-orange font-decoration-underline">Zjistit více</a>
+            <a href="#benefits" class="smooth cta-button font-lnh54 px-40 mb-30 mb-md-0 d-inline-block font-font2 font-orange font-decoration-underline">Zjistit více</a>
         </div>
         </div>
       </div>
@@ -176,7 +176,7 @@
                   </div>
               </div>
 
-              <a href="#meeting" class="cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">Domluvit schůzku</a>
+              <a href="#meeting" class="smooth cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">Domluvit schůzku</a>
                   </div>
               </div>
           </div>
@@ -444,13 +444,14 @@
 </script>
 
 <script>
-  $("a[href^=\\#]").click(function(e) {
+  $("a.smooth[href^=\\#]").click(function(e) {
     e.preventDefault();
     var dest = $(this).attr('href');
-    console.log(dest);
+    //console.log(dest);
     $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
   });
 </script>
+
 
 
 
