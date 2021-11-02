@@ -37,40 +37,6 @@
   {
     background: #E8F6FF;
   }
-  &-sky
-  {
-    background-image: url("../images/background.jpg");
-    background-position: center center;
-    background-size: cover;
-  }
-
-  &-tomas
-  {
-    background-image: url("../images/tomas.jpg");
-    background-position: center center;
-    background-size: cover;
-
-    @media(max-width:767px)
-    {
-      background-image: url("../images/tomas-small.jpg");
-      background-position: top center;
-    }
-
-  }
-
-  &-a
-  {
-    background-image: url("../images/liftia-img.svg");
-    background-position: 5% center;
-    background-size: 45%;
-    background-repeat: no-repeat;
-
-    @media(max-width:767px)
-    {
-      background-image: none;
-    }
-
-  }
 
   &-white
   {
