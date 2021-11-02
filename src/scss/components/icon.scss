@@ -8,9 +8,16 @@
   background-repeat: no-repeat;
   background-position: center center;
 
-  &--logo
+  &--logo-en
   {
     background-image: url("../images/logo.svg");
+    height: 53.8px;
+    width: 180px;
+  }
+
+  &--logo-cs
+  {
+    background-image: url("../images/logo-cs.svg");
     height: 53.8px;
     width: 180px;
   }

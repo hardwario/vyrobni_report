@@ -2,45 +2,24 @@
 
 
 <section>
-  <div class="bg">
+  <div class="bg " id = "top">
     <div class="container">
-      <div class="row">
-        <div class="col-10 col-md-8 pt-0 pb-30 pb-md-60">
-          <h1 class="font-weight-bold font-red font-40 font-md-52 font-lnh52 font-md-lnh60 pt-40 pt-md-20 pb-20">
-            Vaše cesta vzhůru může začít jedním e-mailem
-          </h1>  
+      <div class="row pb-120 pb-120">
+        <div class="col-12 col-md-8 pt-120 pb-120 pb-120 mt-md-0 pt-md-60">
+          <h1 class="font-40 font-md-64 font-md-lnh68 font-weight-black pt-120 pt-md-20 pb-20">
+            {{ .Params.heading | safeHTML }}
+          </h1>        
+          <p class = "font-20 font-lnh28 pb-20">{{ .Params.perex | safeHTML }}</p>
+          <div>
+
+            <a href="{{ .Site.Params.baseURL }}" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "back_home" }}</a>
+            
+        </div>
         </div>
       </div>
     </div>
   </div>
-</section>
 
-<section>
-  <div class="bg">
-    <div class="container">
-      <div class="row pb-30">
-        <div class="col-12 col-md-4">
-          <h2 class = "font-34 font-weight-bold font-blue pb-30">Z Česka i Slovenska volejte Moravu:</h2>
-          <p class = "font-24 font-lnh36 pb-30">
-            <a href = "mailto:tomas.morava@liftia.cz">tomas.morava@liftia.cz</a><br/>
-            <a href = "tel:+420737250187">+420 737 250 187</a>
-          </p>
-          <p class = "font-18 font-lnh24 pb-30">
-          LIFTIA s.r.o.<br/>
-          U Jezu 525/4, 460 01, Liberec<br/>
-          IČ:06012442  DIČ:CZ06012442
-          </p>
-        </div>
-
-        <div class="col-12 col-md-6">
-          <h2 class = "font-34 font-weight-bold font-blue pb-30">Díky za vaší zprávu</h2>
-          <p class = "font-18 font-lnh24 pb-30">Zpráva byla úspěšně odeslána. Ozveme se vám zpět.</p>
-          <a href = "/kontakt">Odeslat další zprávu</a><br/>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <footer>
 {{ end }}

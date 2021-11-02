@@ -1,6 +1,5 @@
-baseURL = "https://vyrobni.report"
 homeURL = "/"
-DefaultContentLanguage = "cs"
+DefaultContentLanguage = "en"
 pygmentsUseClassic = false
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -9,19 +8,50 @@ pygmentsUseClasses = true
 [params]
   menuNames = ["main","footer","services"]
   homeURL = "/"
-  productionURL = "https://vyrobni.report"
 
 [languages]
-  #[languages.en]
-   # LanguageName = "English"
-    #weight = 1
-    #[languages.en.params]
-     # baseURL = "/en/"
+  [languages.en]
+    baseURL = 'https://factory.report'
+  productionURL = "https://factory.report"
+    LanguageName = "English"
+    weight = 1
+    [languages.en.params]
+      siteName = "FACTORY REPORT"
   [languages.cs]
+    baseURL = 'https://vyrobni.report'
+    productionURL = "https://vyrobni.report"
     LanguageName = "Česky"
-    weight = 3
+    weight = 2
     [languages.cs.params]
-      baseURL = "/"
+      siteName = "VÝROBNÍ REPORT"
+
+[[languages.en.menu.main]]
+  url    = "#top"
+  name   = "Home"
+  pre = "sticky-top"
+  post = ""
+  weight = 1
+
+[[languages.en.menu.main]]
+  url    = "#how"
+  name   = "How it works"
+  pre = "sticky-how"
+  post = ""
+  weight = 5
+
+[[languages.en.menu.main]]
+  url    = "#pricelist"
+  name   = "Pricing"
+  pre = "sticky-pricelist"
+  post = ""
+  weight = 15
+
+[[languages.en.menu.main]]
+  url    = "#meeting"
+  name   = "Contact"
+  pre = "sticky-meeting"
+  post = ""
+  weight = 25
 
 [[languages.cs.menu.main]]
   url    = "#top"
