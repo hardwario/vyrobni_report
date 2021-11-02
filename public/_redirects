@@ -1,7 +1,0 @@
-# Netlify
-
-https://tender-poitras-9f7a96.netlify.app* https://www.sidristelucica.com/:splat 301!
-https://sidristelucica.com/* https://www.sidristelucica.com/:splat 301!
-http://tender-poitras-9f7a96.netlify.app* https://www.sidristelucica.com/:splat 301!
-http://sidristelucica.com/* https://www.sidristelucica.com/:splat 301!
-http://www.sidristelucica.com/* https://www.sidristelucica.com/:splat 301!

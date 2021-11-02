@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukas-bigclown/liftia.git"
+    "url": "git+https://github.com/hardwario/vyrobni_report.git"
   },
   "author": "HARDWARIO",
   "bugs": {
-    "url": "https://github.com/lukas-bigclown/liftia/issues"
+    "url": "https://github.com/hardwario/vyrobni_report/issues"
   },
-  "homepage": "https://github.com/lukas-bigclown/liftia#readme",
+  "homepage": "https://github.com/hardwario/vyrobni_report#readme",
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^4.0.2",
