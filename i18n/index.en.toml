@@ -173,7 +173,7 @@ other = "We support a variety of connection methods. Often we connect directly t
 other = "How do you transmit production data? Is it safe?"
 
 [faq_3_desc]
-other = "We transmit data over Vodafone's NB-IoT wireless network. It has great coverage including inside factories. The network is completely independent of your internal network, the transmission is secure."
+other = "We transmit data over NB-IoT and LTE-M wireless networks. They have great coverage including inside factories. The network is completely independent of your internal network, the transmission is secure."
 
 [faq_4]
 other = "Where will we see the data?"
@@ -191,7 +191,7 @@ other = "Yes, you can also purchase equipment and sensors on a one-off basis. Th
 other = "Back to homepage"
 
 [operated_by]
-other = "The factory.report program is operated by"
+other = "The factory.report is operated by"
 
 [vat_id] 
 other = "VAT ID"

@@ -14,7 +14,7 @@ other = "Efektivita <br/>zařízení"
 other = "Prediktivní <br/>údržba"
 
 [production_warehouse]
-other = "Prostředí <br/>výroby askladů"
+other = "Prostředí <br/>výroby a skladů"
 
 [escalations_notifications]
 other = "Eskalace a&nbsp;notifikace"
@@ -173,7 +173,7 @@ other = "Podporujeme celou řadu metod připojení. Často se připojíme přím
 other = "Jak data o výrobě přenášíte? Je to bezpečné?"
 
 [faq_3_desc]
-other = "Data přenášíme bezdrátovou sítí NB-IoT od společnosti Vodafone. Má skvělé pokrytí včetně vnitřních prostor továren. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený."
+other = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvělé pokrytí včetně vnitřních prostor továren. Síť je zcela nezávislá od vaší interní sítě, přenos je zabezpečený."
 
 [faq_4]
 other = "Kde uvidíme data?"
@@ -191,7 +191,7 @@ other = "Ano, zařízení a senzory si můžete také jednorázově zakoupit. Pr
 other = "Zpět na úvodní stranu"
 
 [operated_by]
-other = "Program vyrobni.report provozuje"
+other = "vyrobni.report provozuje"
 
 [vat_id] 
 other = "DIČ"

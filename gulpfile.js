@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const gutil = require('gulp-util');
 const autoprefixer = require('gulp-autoprefixer');
 const child = require('child_process');
-const sass = require("gulp-sass");
+const sass = require('gulp-sass')(require('sass'));
 const hash = require("gulp-hash");
 const del = require("del");
 const hugo = child.spawn('hugo', ['serve', '--bind=0.0.0.0']);
@@ -130,7 +130,7 @@ gulp.task("js", function () {
 });
 
 // Watch asset folder for changes
-gulp.task("watch", ["js","scss-main","scss-main-addon","scss-font","scss-bg","scss-icon"], function () {
+gulp.task("watch", gulp.series("js","scss-main","scss-main-addon","scss-font","scss-bg","scss-icon"), function () {
     gulp.watch("src/scss/**/*", ["scss-main"])
     gulp.watch("src/js/**/*", ["js"])
 });
@@ -146,4 +146,4 @@ gulp.task("prefix", () => {
     }))
 });
 
-gulp.task('start', ['hugo', 'watch']);
+gulp.task('start', gulp.series('hugo', 'watch'));
