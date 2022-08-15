@@ -1,6 +1,6 @@
 ---
 title: Specialities
-description: Independent internet connectivity and battery operation bring a whole new range of possibilities and opportunities for disruption.
+description: Independent internet connectivity and battery operation bring a whole new range of possibilities and opportunities for digitization.
 image_preview: /_assets/images/use-cases/marketing.png
 weight: 60
 full: true

@@ -42,7 +42,7 @@ other = "Measurement of electricity, water, compressed air and other consumption
 other = "Fast and carefree installation"
 
 [fast_noworries_desc]
-other = "The installation will start in 30 days and itself takes only tens of minutes and restricts traffic minimally or not at all."
+other = "The installation will begin within 30 days and take only tens of minutes without restrictions."
 
 [production_data]
 other = "Instant data from operation"
@@ -54,7 +54,7 @@ other = "You'll have your production data instantly - on your phones and compute
 other = "Satisfaction Guarantee"
 
 [guarantee_desc]
-other = "We will issue an invoice with a maturity of 100 days. If you are not satisfied, you do not have to pay it."
+other = "If unsatisfied, you can return the device to us within 100 days."
 
 
 [start_monitor_together]
@@ -64,19 +64,19 @@ other = "Let's start monitoring your production together"
 other = "1. Face-to-face meeting"
 
 [step_1_desc]
-other = "Fill out the form below, we will contact you and arrange an online meeting together. We will discuss the devices you want to monitor and their connection options. If necessary, we will arrange an on-site meeting."
+other = "Fill out the form below. We will contact you and arrange an online meeting to discuss how the program works and your questions. Together we will choose the devices for the pilot phase."
 
 [step_2]
-other = "2. Selection of monitoring area and sensors"
+other = "2. Deployment - pilot launch"
 
 [step_2_desc]
-other = "Depending on the type of device, we will select the measurement method and the most suitable sensors. The following monitoring methods are most commonly used:<ul><li>Optical sensor</li><li>Capacitive sensor</li><li>Magnetic sensor</li><li>Hall probe</li><li>Connection to the analog output of the machine</li><li>Connection to the digital output of the machine</li></ul>"
+other = "We will install the sensors and integrate them with selected applications within 30 days. Installation takes tens of minutes, and you will immediately have factory data."
 
 [step_3]
-other = "3. Visualization and reporting method"
+other = "3. Pilot evaluation"
 
 [step_3_desc]
-other = "We will not replace the tools and applications you are comfortable working with. We will find a way to transfer the measured data to them. If you don't use a suitable application yet, we can help you choose one. We usually use Power BI."
+other = "According to pre-agreed criteria, we will evaluate the pilot operation and agree on the way forward."
 
 [pbi_example]
 other = "Example of output in Microsoft Power BI"
@@ -103,7 +103,7 @@ other = "Already using factory.report"
 other = "Pricing"
 
 [prices_desc]
-other = "The price of the service starts at 19 EUR per month and depends on the contract length and the sensors used."
+other = "The pilot project to integrate the five selected devices costs EUR 9,500 excluding VAT."
 
 [36]
 other = "36 months commitment"
@@ -163,13 +163,13 @@ other = "Your Frequently Asked Questions"
 other = "How does the program factory.report work?"
 
 [faq_1_desc]
-other = "After submitting the form, Alan will contact you to arrange a time to call together. The aim is to find out how we can monitor your machines and agree on a deployment procedure. "
+other = "After submitting the form, we will contact you to arrange a time for an online meeting. The aim is to find answers to your questions and select five devices for a pilot deployment."
 
 [faq_2]
-other = "How do you connect to our machines? Will you stop production?"
+other = "Is it possible to extend the pilot with other devices?"
 
 [faq_2_desc]
-other = "We support a variety of connection methods. Often we connect directly to the PLC machines with digital outputs, for example via RS-485 (Modbus) or analog outputs. If this is not possible, capacitive, magnetic and optical sensors come into play. In most cases, there is no need to stop your production at all."
+other = "Yes, the price of each additional device is 390 euros excluding VAT."
 
 [faq_3]
 other = "How do you transmit production data? Is it safe?"
@@ -182,12 +182,6 @@ other = "Where will we see the data?"
 
 [faq_4_desc]
 other = "In factory.report, we work with the outputs in Microsoft's Power BI. To see what this might look like, see <a href='https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection' target='_blank'>link</a>. However, if you need to see the data elsewhere, we'll find a way to do it. Then, with the help of our partners, we also offer custom web apps."
-
-[faq_5]
-other = "Can the monitoring system also be purchased, or is it only available for rent?"
-
-[faq_5_desc]
-other = "Yes, you can also purchase equipment and sensors on a one-off basis. The regular fees are then only for internet connectivity and optionally for visualization and reporting. We will discuss the details at the kick-off meeting."
 
 [back_home]
 other = "Back to homepage"
