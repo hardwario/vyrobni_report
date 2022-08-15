@@ -1,6 +1,6 @@
 ---
 title: Speciality
-description: Nezávislé připojení k internetu a bateriové napájení přináší celou řadu nových možností a příležitostí k&nbsp;disrupci.
+description: Nezávislé připojení k internetu a bateriové napájení přináší celou řadu nových možností a příležitostí k&nbsp;digitalizaci.
 image_preview: /_assets/images/use-cases/marketing.png
 weight: 60
 full: true

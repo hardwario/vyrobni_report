@@ -16,10 +16,10 @@
 
             {{ if eq $currentLang "en"}}
 
-            <a href="#benefits" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "learn_more" }}</a>
+            <a href="#meeting" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "make_appointment" }}</a>
             {{ else }}
             <a href="#video" class="playVideo cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "play_video" }}</a>
-            <a href="#benefits" class="smooth cta-button font-lnh54 px-40 mb-30 mb-md-0 d-inline-block font-font2 font-orange font-decoration-underline">{{ i18n "learn_more" }}</a>
+            <a href="#meeting" class="smooth cta-button font-lnh54 px-40 mb-30 mb-md-0 d-inline-block font-font2 font-orange font-decoration-underline">{{ i18n "make_appointment" }}</a>
             {{ end }}
             
         </div>
@@ -71,54 +71,6 @@
     </div>
   </div>
 </section>
-
-
-<!--
-<section>
-  <div class = "container pb-70" id = "areas">
-      <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-5 mx-auto text-center">
-            <div class="font-grayLined font-gray2 mb-40 font-font2 font-weight-bold font-15"><span>{{ i18n "monitoring_areas" }}</span></div>
-        </div>
-      </div>
-      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-          <ul class="row justify-content-center list-unstyled text-center carousel-indicators mx-0">
-              <li data-target="#carousel" data-slide-to="0" class="active col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/effectivity.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "equipment_efficiency" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="1" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/predictive.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "predictive_maintenance" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="2" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/environment.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "production_warehouse" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="3" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/notify.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "escalations_notifications" | safeHTML }}</h3></li>
-              <li data-target="#carousel" data-slide-to="4" class="col-2"><img class = "pb-20" height="75"  src="/_assets/images/benefits/consumption.svg" alt="" /><h3 class="font-20 font-weight-black font-lnh24">{{ i18n "energy_consumption" | safeHTML }}</h3></li>
-          </ul>
-          <div class = "row justify-content-center">
-          <div class="col-10 carousel-inner bg-white shadow mt-20 px-20 pt-40 pb-30 text-center">
-              <div class="carousel-item active">
-                <p class = "font-18 font-lnh26">{{ i18n "equipment_efficiency_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "predictive_maintenance_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "production_warehouse_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "escalations_notifications_desc" | safeHTML }}</p>
-              </div>
-              <div class="carousel-item">
-                  <p class = "font-18 font-lnh26">{{ i18n "energy_consumption_desc" | safeHTML }}</p>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true">x</span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true">x</span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-  </div>
-</section>-->
 
 <section>
   <div class="bg">
@@ -414,7 +366,7 @@
     e.preventDefault();
     var dest = $(this).attr('href');
     //console.log(dest);
-    $('html,body').animate({ scrollTop: $(dest).offset().top }, 'slow');
+    $('html,body').animate({ scrollTop: ($(dest).offset().top - 100) }, 'slow');
   });
 </script>
 

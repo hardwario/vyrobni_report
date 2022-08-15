@@ -54,7 +54,7 @@ other = "Ihned po instalaci uvidíte data z výroby ve vašem telefonu i počít
 other = "Záruka spokojenosti"
 
 [guarantee_desc]
-other = "Fakturu vystavíme se splatností 100 dnů. Pokud nebudete spokojeni, nemusíte ji platit."
+other = "Pokud nebudete spokojeni, můžete nám zařízení do 100 dnů vrátit."
 
 
 
@@ -65,13 +65,13 @@ other = "Začněme společně monitorovat vaši výrobu"
 other = "1. Domluvení pilotu"
 
 [step_1_desc]
-other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Na ní proberem, jak program funguje, vaše dotazy a společně vybereme pět zařízení pro pilotní nasazení u vás."
+other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Na ní probereme, jak program funguje, vaše dotazy a společně vybereme pět zařízení pro pilotní nasazení u vás."
 
 [step_2]
 other = "2. Nasazení - zahájení pilotu"
 
 [step_2_desc]
-other = "Do 30 dnů u vás senzory nainstalujeme a integrujeme je s vybranými aplikacemi. Instalace zabere jen pár minut a okamžitě budete mít k dispozici data z výroby."
+other = "Do 30 dnů u vás senzory nainstalujeme a integrujeme je s vybranými aplikacemi. Instalace zabere jen pár desítek minut a okamžitě budete mít k dispozici data z výroby."
 
 [step_3]
 other = "3. Vyhodnocení pilotu"
