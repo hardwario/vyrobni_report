@@ -46,6 +46,35 @@
 </section>
 
 <section>
+  <div class="bg pb-md-30" style="overflow: hidden; display:block" id = "benefits">
+    <div class="container text-center">
+    <!--<div class = "row">
+        <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
+          <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>Bezstarostná implementace</span></div>
+      </div>
+      </div>-->
+      <div class="row">
+         
+          <div class = "col-12 col-md-4 pb-30 pb-md-0">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10"></h3>
+            <p></p>
+          </div>
+          <div class = "col-12 col-md-4 pb-30 pb-md-0">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "noninvasive" | safeHTML }}</h3>
+            <p>{{ i18n "noninvasive_desc" | safeHTML }}</p>
+          </div>
+          <div class = "col-12 col-md-4">
+            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "fast_return" | safeHTML }}</h3>
+            <p>{{ i18n "fast_return_desc" | safeHTML }}</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<!--
+<section>
   <div class = "container pb-70" id = "areas">
       <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-5 mx-auto text-center">
@@ -89,38 +118,50 @@
           </a>
         </div>
   </div>
-</section>
+</section>-->
 
 <section>
-  <div class="bg pb-md-30" style="overflow: hidden; display:block" id = "benefits">
-    <div class="container text-center">
-    <!--<div class = "row">
-        <div class="col-12 col-md-8 col-lg-4 mx-auto text-center">
-          <div class="font-grayLined font-gray2 mb-20 font-font2 font-weight-bold font-15"><span>Bezstarostná implementace</span></div>
+  <div class="bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-5 mx-auto text-center">
+          <div class="font-grayLined font-gray2 font-font2 font-weight-bold font-15"><span>{{ i18n "monitoring_areas" }}</span></div>
       </div>
-      </div>-->
+    </div>
       <div class="row">
-         
-          <div class = "col-12 col-md-4 pb-30 pb-md-0">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "30_test" | safeHTML }}</h3>
-            <p>{{ i18n "30_test_desc" | safeHTML }}</p>
+        <div class="col-12">
+          <div class="articles articles--2">
+            <div class="row d-flex align-content-stretch">
+              {{ $uses := where .Site.RegularPages "Section" "use-cases" }}
+              {{ range $uses.ByWeight }}
+
+              <div class="col-12 col-md-6 col-lg-4 d-flex">
+                <span class="articles__item articles__item--3">
+                  <div class="articles__item__image">
+                    <img src="{{ .Params.image_preview }}" alt="{{ .Title | safeHTML }}" class = "w-100" />
+                  </div>
+                
+                  <div class="articles__content articles__content--2">
+                    <h3 class="articles__title articles__title--2">{{ .Title | safeHTML }}</h3>
+                    <p class="articles__text articles__text--2">{{ .Params.description | safeHTML }}</p>
+                  </div>
+                  </span>
+              </div>
+
+              {{ end }}
+
+            </div>
           </div>
-          <div class = "col-12 col-md-4 pb-30 pb-md-0">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "noninvasive" | safeHTML }}</h3>
-            <p>{{ i18n "noninvasive_desc" | safeHTML }}</p>
-          </div>
-          <div class = "col-12 col-md-4">
-            <h3 class = "font-weight-bold font-28 font-md-30 pb-10 pb-md-10">{{ i18n "fast_return" | safeHTML }}</h3>
-            <p>{{ i18n "fast_return_desc" | safeHTML }}</p>
-          </div>
+
         </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section>
   <div class="bg bg--gray" id = "how">
-      <div class="container py-30">
+      <div class="container pb-30">
         <div class="row">
           <div class="col-12 col-md-10 col-lg-8 mx-auto text-center">
               <h2 class="text-center pb-20 font-weight-black pt-60 font-38 font-md-56">{{ i18n "start_monitor_together" | safeHTML }}</h2>
@@ -141,34 +182,18 @@
                   </div>
                   
                   <div class="collapsor__item" img-url = "/_assets/images/process-2.png">
-                      <h3 class="collapsor__header">{{ i18n "step_2" | safeHTML }}</h3>
-                      <div class="collapsor__body">
+                      <h3 class="collapsor__header collapsor__header--active">{{ i18n "step_2" | safeHTML }}</h3>
+                      <div class="collapsor__body collapsor__body--active">
                         {{ i18n "step_2_desc" | safeHTML }}
                       </div>
                   </div>
 
                   <div class="collapsor__item" img-url = "/_assets/images/process-3.png">
-                    <h3 class="collapsor__header">{{ i18n "step_3" | safeHTML }}</h3>
-                    <div class="collapsor__body">
+                    <h3 class="collapsor__header collapsor__header--active">{{ i18n "step_3" | safeHTML }}</h3>
+                    <div class="collapsor__body collapsor__body--active">
                       {{ i18n "step_3_desc" | safeHTML }}
-                      <br/><br/>
-                      <a class = "font-weight-bold" href = "https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection" target="_blank">Příklad výstupu v Microsoft Power BI</a>
                     </div>
                 </div>
-
-                  <div class="collapsor__item" img-url = "/_assets/images/process-4.jpg">
-                    <h3 class="collapsor__header">{{ i18n "step_4" | safeHTML }}</h3>
-                    <div class="collapsor__body">
-                      {{ i18n "step_4_desc" | safeHTML }}
-                    </div>
-                </div>
-                  
-                <div class="collapsor__item" img-url = "/_assets/images/process-5.jpg">
-                  <h3 class="collapsor__header">{{ i18n "step_5" | safeHTML }}</h3>
-                  <div class="collapsor__body">
-                    {{ i18n "step_5_desc" | safeHTML }}
-                  </div>
-              </div>
 
               <a href="#meeting" class="smooth cta-button font-lnh54 mt-30 ml-30 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "make_appointment" | safeHTML }}</a>
                   </div>
@@ -177,17 +202,17 @@
       </div>
   </div>
 
-<script>
+<!--<script>
   $('#process .collapsor__item').click(function(){
     var image = $(this).attr('img-url');
     $('#collapsor-image').attr('src',image);
   });
-</script>
+</script>-->
 
 </section>
 
 <section>
-  <div class="container">
+  <div class="container" id = "pricelist">
     
       <div class="row align-items-center pb-10">
           
@@ -201,7 +226,7 @@
                   <img width="140" src="/_assets/images/partners/tpca.svg" alt="" />
               </span>
               <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                  <img width="135" src="/_assets/images/partners/otk.svg" alt="" />
+                  <img width="135" src="/_assets/images/partners/tokoz.svg" alt="" />
               </span>
               <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
                   <img width="140" src="/_assets/images/partners/skoda.svg" alt="" />
@@ -210,7 +235,7 @@
                   <img width="135" src="/_assets/images/partners/arcelormittal.svg" alt="" />
               </span>
               <span class="px-10 px-md-30 mb-20 mb-md-0 d-inline-block">
-                  <img width="95" src="/_assets/images/partners/eon.svg" alt="" />
+                  <img width="95" src="/_assets/images/partners/ammeeral.svg" alt="" />
               </span>
           </div>
           <!--<div class = "col-12 text-center pt-40">
@@ -221,7 +246,7 @@
 </section>
 
 <section>
-  <div class="bg bg--gray" id = "pricelist">
+  <div class="bg bg--gray">
       <div class="container ">
           <div class="row">
               <div class="col">
@@ -231,95 +256,48 @@
                         <p class="text-center font-24 font-lnh38">{{ i18n "prices_desc" | safeHTML }}</p>
                     </div>
                 </div>
-                  <div class="pricelist pricelist--bottom-3-5 pt-0 pt-md-40 mb-40">
-                      <div class="row no-gutters">
-                        <div class="col-12 col-md-4">
-                          <div class="pricelist__item">
-                            <div class="pricelist__content">
-                              <h3 class="pricelist__title">{{ i18n "36" | safeHTML }}</h3>
-                        <!--
-                              <div class="product__images d-flex align-items-center justify-content-center">
-                                  <img src="/kits-images/" alt="" />
-                              </div>
-                        
-                        
-                              <div class="pricelist__title2">Text</div>
-                            -->
-                              <ul class="pricelist__items">
-                                <li class="pricelist__items__item">{{ i18n "reporting_pbi" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "rest_api" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "replacement" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "insurance" | safeHTML }}</li>
-                              </ul>
-                                <div class="pricelist__discount pt-30">{{ i18n "save_50" | safeHTML }}</div>
-                              <div class="pricelist__price">{{ i18n "36_price" | safeHTML }}</div>
-                               <!--<div class="pricelist__button">
-                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
-                              </div>-->
-                            </div>
-                          </div>
-                        </div>
-                        
-
-                        <div class="col-12 col-md-4">
-                          <div class="pricelist__item pricelist__item--rec">
-                            <div class="pricelist__content">
-                              <div class="pricelist__rec">{{ i18n "popular" | safeHTML }}</div>
-                              <h3 class="pricelist__title">{{ i18n "24" | safeHTML }}</h3>
-                        <!--
-                              <div class="product__images d-flex align-items-center justify-content-center">
-                                  <img src="/kits-images/" alt="" />
-                              </div>
-                        
-                        
-                              <div class="pricelist__title2">Text</div>-->
-                              <ul class="pricelist__items">
-                                <li class="pricelist__items__item">{{ i18n "reporting_pbi" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "rest_api" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "replacement" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "insurance" | safeHTML }}</li>
-                              </ul>
-                                <div class="pricelist__discount pt-30">{{ i18n "save_30" | safeHTML }}</div>
-                              <div class="pricelist__price">{{ i18n "24_price" | safeHTML }}</div>
-                               <!--<div class="pricelist__button">
-                                <a href="#" class="cta-button font-lnh54 font-md-lnh24 font-lg-lnh54 px-30 d-inline-block font-weight-bold font-font2 font-white bg-red">Toto</a>
-                              </div>-->
-                            </div>
-                          </div>
-                        </div>
-                        
-
-                        <div class="col-12 col-md-4">
-                          <div class="pricelist__item">
-                            <div class="pricelist__content">
-                              <h3 class="pricelist__title">{{ i18n "12" | safeHTML }}</h3>
-                        <!--
-                              <div class="product__images d-flex align-items-center justify-content-center">
-                                  <img src="/kits-images/" alt="" />
-                              </div>
-                        
-                        
-                              <div class="pricelist__title2">Text</div>-->
-                        
-                              <ul class="pricelist__items">
-                                <li class="pricelist__items__item">{{ i18n "reporting_pbi" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "rest_api" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "replacement" | safeHTML }}</li>
-                                <li class="pricelist__items__item">{{ i18n "insurance" | safeHTML }}</li>
-                              </ul>
-                              <div class="pricelist__discount pt-30" style = "visibility: hidden;"><!-- -->0 </div>
-                              <div class="pricelist__price">{{ i18n "12_price" | safeHTML }}</div>
-                              <!--<div class="pricelist__button">
-                                <a href="#" class="cta-button font-lnh46 font-md-lnh24 font-lg-lnh46 px-30 d-inline-block font-weight-bold font-font2 font-red bg-white text-decoration-none border-red">Toto</a>
-                              </div>-->
-                            </div>
-                          </div>
-                        </div>
-
-                      </div>
-                  </div>
               </div>
           </div>
+      </div>
+  </div>
+</section>
+
+
+<section>
+  <div class="text-md-left pt-60 pb-60">
+      <div class="container">
+          <div class="row justify-content-center">
+              <!--<div class="pb-30 col-12 text-center">
+                  <h2 class = "font-30 font-md-42 pt-50 font-weight-black text-center">{{ i18n "benefits_of" }} {{ .Params.heading }}</h2>
+                  <p class="font-20 font-lnh24">{{ i18n "benefits_conditions" }}</p>
+              </div>-->
+              <div class = "col-12">
+                <div class = "row">
+                    <div class="col pb-30">
+                        <div class="row justify-content-center align-items-center">
+      
+                            <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                                <img loading="lazy" src="/_assets/images/benefits/effectivity.svg" class="w-100 mt-20" alt="" />
+                            </div>
+                            <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                                <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "fast_noworries" | safeHTML }}</h3>
+                                <p class="font-18 font-lnh26">{{ i18n "fast_noworries_desc" | safeHTML }}</p>
+                            </div>
+                          <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                              <img loading="lazy" src="/_assets/images/benefits/consumption.svg" class="w-75 mt-20" alt="" />
+                          </div>
+                          <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                              <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "production_data" | safeHTML }}</h3>
+                              <p class="font-18 font-lnh26">{{ i18n "production_data_desc" | safeHTML }}</p>
+                          </div>
+
+                        <div class = "col-3 col-md-1 text-right pb-20 pb-md-0">
+                            <img loading="lazy" src="/_assets/images/benefits/document.svg" class="w-100 mt-20" alt="" />
+                        </div>
+                        <div class = "col-9 col-md-3 pb-20 pb-md-0">
+                            <h3 class="font-20 font-weight-black font-lnh30">{{ i18n "guarantee" | safeHTML }}</h3>
+                            <p class="font-18 font-lnh26">{{ i18n "guarantee_desc" | safeHTML }}</p>
+                        </div>
       </div>
   </div>
 </section>
@@ -350,10 +328,10 @@
     <div class="col-12 col-md-12 col-lg-12 bg-darkGray py-30 mb-60">
         <div class = "row align-items-top">
           <div class = "col-12 col-md-4 pt-md-50 px-50">
-              <img loading="lazy" src="/_assets/images/alan.png" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
+              <img loading="lazy" src="/_assets/images/lukas.jpeg" class="w-75 w-md-100 rounded-circle d-block mx-auto img-fluid" alt="" />
               <p class = "font-white text-center pt-20">
-              <strong>Alan Fabik</strong><br/>
-              <a class = "font-white" href = "mailto:alan.fabik@hardwario.com">alan.fabik@hardwario.com</a><br/>
+              <strong>Lukáš Fabik</strong><br/>
+              <a class = "font-white" href = "mailto:lukas.fabik@hardwario.com">lukas.fabik@hardwario.com</a><br/>
               {{ i18n "ceo" }} HARDWARIO</p>
           </div>
           <div class = "col-12 col-md-8 pt-30 pt-md-0 font-white">
@@ -410,12 +388,6 @@
                   </div>
               </div>
 
-              <div class="collapsor__item">
-                <h2 class="collapsor__header">{{ i18n "faq_5" | safeHTML }}</h2>
-                <div class="collapsor__body">
-                  {{ i18n "faq_5_desc" | safeHTML }}
-                </div>
-            </div>
                   </div>
               </div>
           </div>

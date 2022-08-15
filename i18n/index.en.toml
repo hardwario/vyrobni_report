@@ -37,23 +37,25 @@ other = "Wireless push-button systems to speed up and refine processes. Includin
 [energy_consumption_desc]
 other = "Measurement of electricity, water, compressed air and other consumption variables."
 
-[30_test]
-other = "30 days to test"
 
-[30_test_desc]
-other = "Together we will verify the functionality and benefits of the system on one of your devices. The test is free for 30 days and&nbsp;no obligation."
+[fast_noworries]
+other = "Fast and carefree installation"
 
-[noninvasive]
-other = "Non-invasive method"
+[fast_noworries_desc]
+other = "The installation will start in 30 days and itself takes only tens of minutes and restricts traffic minimally or not at all."
 
-[noninvasive_desc]
-other = "We get the data without interfering with your device and send it over a secure independent wireless network."
+[production_data]
+other = "Instant data from operation"
 
-[fast_return]
-other = "Fast return"
+[production_data_desc]
+other = "You'll have your production data instantly - on your phones and computers."
 
-[fast_return_desc]
-other = "Gradual implementation without changing your processes and tools with immediate return on your&nbsp;investment."
+[guarantee]
+other = "Satisfaction Guarantee"
+
+[guarantee_desc]
+other = "We will issue an invoice with a maturity of 100 days. If you are not satisfied, you do not have to pay it."
+
 
 [start_monitor_together]
 other = "Let's start monitoring your production together"

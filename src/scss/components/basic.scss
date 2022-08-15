@@ -1,13 +1,15 @@
+$grid-row-columns: 12;
+
 @import "../../../node_modules/bootstrap/scss/functions";
-//@import "../../node_modules/bootstrap/scss/variables";
-@import "variables";
+@import "../../node_modules/bootstrap/scss/_variables";
+@import "_variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 @import url("https://use.typekit.net/eua1gni.css");
 
 $browser-context: 16; // Default
 
 @function em($pixels, $context: $browser-context) {
-  @return #{$pixels/$context}rem;
+  @return #{calc($pixels/$context)}rem;
 }
 
 @mixin font1()

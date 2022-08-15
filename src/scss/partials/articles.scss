@@ -22,7 +22,7 @@
     position: relative;
     height: 0;
     overflow:hidden;
-    padding-bottom: 246/375*100%;
+    padding-bottom: calc(246/375)*100%;
     margin-bottom: $baseline;
 
     &__image
@@ -55,11 +55,11 @@
     {
       .articles__item__image img
       {
-        filter: blur(4px);
+        //filter: blur(4px);
 
       }
       .articles__author a{
-        text-decoration: underline;
+        //text-decoration: underline;
       }
     }
 
@@ -149,7 +149,7 @@
     margin: 0;
     padding: 0;
     font-size: em(24);
-    color:#22228C;
+    color:#1a1a1a;
     font-weight: 600;
     margin-bottom: 0.5*$baseline;
     max-height: 2*$baseline;

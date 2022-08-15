@@ -71,7 +71,7 @@ pygmentsUseClasses = true
 
 [[languages.cs.menu.main]]
   url    = "#pricelist"
-  name   = "Ceny"
+  name   = "Cena"
   pre = "sticky-pricelist"
   post = ""
   weight = 15

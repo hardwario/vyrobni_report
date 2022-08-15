@@ -37,44 +37,47 @@ other = "Bezdrátové tlačítkové systémy pro zrychlení a zpřesnění proce
 [energy_consumption_desc]
 other = "Měření spotřeby elektrické energie, vody, stlačeného vzduchu a dalších veličin."
 
-[30_test]
-other = "30 dní na vyzkoušení"
 
-[30_test_desc]
-other = "Společně ověříme funkčnost a přínosy systému na jednom vašem zařízení. Test je na 30 dní zdarma a&nbsp;bez závazku."
+[fast_noworries]
+other = "Rychle a bezstarostně"
 
-[noninvasive]
-other = "Neinvazivní metoda"
+[fast_noworries_desc]
+other = "Instalaci začneme do 30 dnů a potrvá jen desítky minut. Provoz omezíme minimálně, nebo vůbec."
 
-[noninvasive_desc]
-other = "Data získáme bez zásahu do vašeho zařízení a pošleme je bezpečnou nezávislou bezdrátovou sítí."
+[production_data]
+other = "Okamžitá data z provozu"
 
-[fast_return]
-other = "Rychlá návratnost"
+[production_data_desc]
+other = "Ihned po instalaci uvidíte data z výroby ve vašem telefonu i počítači. "
 
-[fast_return_desc]
-other = "Postupná implementace bez nutnosti změny vašich procesů a nástrojů s okamžitou návratností vaší&nbsp;investice."
+[guarantee]
+other = "Záruka spokojenosti"
+
+[guarantee_desc]
+other = "Fakturu vystavíme se splatností 100 dnů. Pokud nebudete spokojeni, nemusíte ji platit."
+
+
 
 [start_monitor_together]
 other = "Začněme společně monitorovat vaši výrobu"
 
 [step_1]
-other = "1. Osobní schůzka"
+other = "1. Domluvení pilotu"
 
 [step_1_desc]
-other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Probereme zařízení, která chcete monitorovat a možnosti jejich připojení. V případě potřeby se domluvíme na osobním setkání."
+other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Na ní proberem, jak program funguje, vaše dotazy a společně vybereme pět zařízení pro pilotní nasazení u vás."
 
 [step_2]
-other = "2. Výběr oblasti monitoringu a senzorů"
+other = "2. Nasazení - zahájení pilotu"
 
 [step_2_desc]
-other = "Podle typu zařízení zvolíme způsob měření a nejvhodnější senzory. Nejčastěji využíváme tyto metody monitoringu:<ul><li>Optický senzor</li><li>Kapacitní senzor</li><li>Magnetický senzor</li><li>Hallova sonda</li><li>Napojení na analogový výstup stroje</li><li>Napojení na digitální výstup stroje</li></ul>"
+other = "Do 30 dnů u vás senzory nainstalujeme a integrujeme je s vybranými aplikacemi. Instalace zabere jen pár minut a okamžitě budete mít k dispozici data z výroby."
 
 [step_3]
-other = "3. Způsob vizualizace a reporting"
+other = "3. Vyhodnocení pilotu"
 
 [step_3_desc]
-other = "Nebudeme nahrazovat nástroje a aplikace, se kterými se vám dobře pracuje. Najdeme způsob, jak do nich naměřená data přenést. Pokud doposud žádnou vhodnou aplikaci nepoužíváte, poradíme vám s výběrem. Většinou používáme Power BI."
+other = "Podle předem domluvených kritérií vyhodnotíme pilotní provoz a domluvíme se na dalším postupu."
 
 [pbi_example]
 other = "Příklad výstupu v Microsoft Power BI"
@@ -98,10 +101,10 @@ other = "Domluvit schůzku"
 other = "Program vyrobni.report již využívají"
 
 [prices]
-other = "Ceny"
+other = "Cena"
 
 [prices_desc]
-other = "Cena služby startuje na 490 Kč měsíčně a je závislá na délce úvazku a&nbsp;použitých senzorech."
+other = "Pilotní projekt integrace pěti vybraných zařízení stojí 95 000 Kč."
 
 [36]
 other = "Závazek 36 měsíců"
@@ -149,7 +152,7 @@ other = "od"
 other = "Partneři programu vyrobni.report"
 
 [ceo]
-other = "CEO a spoluzakladatel"
+other = "CMO a spoluzakladatel"
 
 [let_contact]
 other = "Nechte mi na vás kontakt, ozvu se"
@@ -161,13 +164,13 @@ other = "Vaše nejčastější dotazy"
 other = "Jak probíhá program vyrobni.report?"
 
 [faq_1_desc]
-other = "Po odeslání formuláře vás Alan kontaktuje a domluvíte se na termínu společného telefonátu. Cílem je zjistit jakým způsobem můžeme vaše stroje sledovat a domluvit se na postupu nasazení. "
+other = "Po odeslání formuláře vás kontaktujeme a domluvíme se na termínu společné online schůzky. Cílem je zjistit odpovědět vaše dotazy a vybra pět zařízení pro pilotní nasazení."
 
 [faq_2]
-other = "Jak se k našim strojům připojíte? Zastavíte výrobu?"
+other = "Je možné pilot rozšířit o další zařízení?"
 
 [faq_2_desc]
-other = "Podporujeme celou řadu metod připojení. Často se připojíme přímo na PLC stroje digitálními výstupy, například přes RS-485 (Modbus) nebo analogovými výstupy. Pokud to takto nejde, přichází na řadu kapacitní, magnetické a optické senzory. Ve většině případů není potřeba vaši výrobu vůbec zastavovat."
+other = "Ano, cena každého dalšího zařízení je 9 500 Kč."
 
 [faq_3]
 other = "Jak data o výrobě přenášíte? Je to bezpečné?"
@@ -180,12 +183,6 @@ other = "Kde uvidíme data?"
 
 [faq_4_desc]
 other = "V programu vyrobni.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = 'https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection' target = '_blank'>odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
-
-[faq_5]
-other = "Je možné systém monitoringu také zakoupit, nebo je dostupný jen pronájem?"
-
-[faq_5_desc]
-other = "Ano, zařízení a senzory si můžete také jednorázově zakoupit. Pravidelné poplatky jsou pak pouze za konektivitu do internetu a volitelně za vizualizaci a reporting. Podrobnosti probereme na úvodní schůzce."
 
 [back_home]
 other = "Zpět na úvodní stranu"
