@@ -103,49 +103,10 @@ other = "Already using factory.report"
 other = "Pricing"
 
 [prices_desc]
-other = "The pilot project to integrate the five selected devices costs EUR 9,500 excluding VAT."
-
-[36]
-other = "36 months commitment"
-
-[36_price]
-other = "from 19 EUR / month"
-
-[24]
-other = "24 months commitment"
-
-[24_price]
-other = "from 27 EUR / month"
-
-[12]
-other = "12 months commitment"
-
-[12_price]
-other = "from 39 EUR / month"
+other = "The pilot project costs 1 500 EUR excluding VAT. The equipment can be purchased or the entire solution can be purchased as a service."
 
 [reporting_pbi]
 other = "Data reporting via Power BI"
-
-[rest_api]
-other = "Access to REST API and Callbacks for custom integration"
-
-[replacement]
-other = "Free replacement on failure within 48 hours"
-
-[insurance]
-other = "Theft and destruction insurance"
-
-[popupar]
-other = "Popular"
-
-[save_50]
-other = "Save 50%"
-
-[save_30]
-other = "Save 30%"
-
-[from]
-other = "from"
 
 [partners]
 other = "Partner of factory.report"
