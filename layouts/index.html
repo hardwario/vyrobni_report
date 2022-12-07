@@ -63,12 +63,12 @@
               {{ $uses := where .Site.RegularPages "Section" "use-cases" }}
               {{ range $uses.ByWeight }}
 
-              <div class="col-12 col-md-6">
+              <div class="col-12 col-md-6 mt-20">
                 <div class = "row align-items-center">
-                  <div class = "col-3">
-                    <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" class = "w-100" />
+                  <div class = "col-4">
+                    <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" class = "w-100 " />
                   </div>
-                  <div class = "col-9">
+                  <div class = "col-8">
                     <h3 class="font-20 font-weight-black font-lnh30">{{ .Title }}</h3>
                     <p class="font-18 font-lnh26">{{ .Params.short | safeHTML }}</p>
                   </div>
