@@ -1,5 +1,6 @@
 ---
-title: Notifications
+title: Notifications and escalation
+short: ANDON, Calling system
 description: Devices with up to four push-buttons. Notification solutions are suitable for outdoor projects, industry and healthcare.
 image_preview: /_assets/images/use-cases/buttons.png
 weight: 30

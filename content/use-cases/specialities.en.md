@@ -4,6 +4,7 @@ description: Independent internet connectivity and battery operation bring a who
 image_preview: /_assets/images/use-cases/marketing.png
 weight: 60
 full: true
+draft: true
 ---
 
 Keep an eye on a sump or silo level or create an independent security system. Use the potential of IoT in marketing, get online customer-in-shop behaviour insights and shelf occupancy.

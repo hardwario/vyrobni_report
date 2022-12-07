@@ -4,4 +4,5 @@ description: Sledujte dlouhodobě stav strojů, konstrukcí a jiných objektů. 
 image_preview: /_assets/images/use-cases/predictive-maintenance.png
 weight: 20
 full: true
+draftu: true
 ---

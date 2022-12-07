@@ -5,10 +5,10 @@ other = "Přehrát video"
 other = "Zjistit více"
 
 [monitoring_areas]
-other = "Oblasti monitoringu"
+other = "Populární IoT aplikace v průmyslu"
 
 [equipment_efficiency]
-other = "Efektivita <br/>zařízení"
+other = "Efektivita výroby"
 
 [predictive_maintenance]
 other = "Prediktivní <br/>údržba"
@@ -17,10 +17,10 @@ other = "Prediktivní <br/>údržba"
 other = "Prostředí <br/>výroby a skladů"
 
 [escalations_notifications]
-other = "Eskalace a&nbsp;notifikace"
+other = "Notifikace a eskalace"
 
 [energy_consumption]
-other = "Spotřeba <br/>energií"
+other = "Spotřeba energií"
 
 [equipment_efficiency_desc]
 other = "Měření dat o výkonu a efektivitě (OEE) vašich strojů a zařízení."
@@ -63,34 +63,22 @@ other = "Začněme společně monitorovat vaši výrobu"
 other = "1. Domluvení pilotu"
 
 [step_1_desc]
-other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Na ní probereme, jak program funguje, vaše dotazy a společně vybereme pět zařízení pro pilotní nasazení u vás."
+other = "Vyplňte formulář níže, ozveme se vám a společně domluvíme termín online schůzky. Na ní probereme vaše dotazy a domluvíme se na dalším postupu. Nejčastěji začínáme pilotem."
 
 [step_2]
-other = "2. Nasazení - zahájení pilotu"
+other = "2. Nasazení"
 
 [step_2_desc]
-other = "Do 30 dnů u vás senzory nainstalujeme a integrujeme je s vybranými aplikacemi. Instalace zabere jen pár desítek minut a okamžitě budete mít k dispozici data z výroby."
+other = "Do 30 dnů vám dodáme zařízení, která zvládnete nainstalovat svépomocí, nebo vám po domluvě s instalací pomůžeme. Okamžitě budete mít k dispozici data z výroby."
 
 [step_3]
-other = "3. Vyhodnocení pilotu"
+other = "3. Vyhodnocení"
 
 [step_3_desc]
 other = "Podle předem domluvených kritérií vyhodnotíme pilotní provoz a domluvíme se na dalším postupu."
 
 [pbi_example]
 other = "Příklad výstupu v Microsoft Power BI"
-
-[step_4]
-other = "4. Odeslání zařízení a instalace"
-
-[step_4_desc]
-other = "Zařízení včetně senzorů zašleme k vám. Pokud si neporadíte s instalací svépomocí, vyšleme k vám někoho od nás."
-
-[step_5]
-other = "5. Sledování a vyhodnocení"
-
-[step_5_desc]
-other = "Data o výrobě budete mít okamžitě ve svém počítači i telefonu. Budou k dispozici pro vyhodnocení efektivity vaší výroby a návratnosti celé investice. Společně se na data podíváme a vyhodnotíme přínosy."
 
 [make_appointment]
 other = "Domluvit schůzku"
@@ -102,49 +90,10 @@ other = "Program vyrobni.report již využívají"
 other = "Cena"
 
 [prices_desc]
-other = "Pilotní projekt integrace pěti vybraných zařízení stojí 95 000 Kč bez DPH."
-
-[36]
-other = "Závazek 36 měsíců"
-
-[36_price]
-other = "od 490 CZK / měsíc"
-
-[24]
-other = "Závazek 24 měsíců"
-
-[24_price]
-other = "od 690 CZK / měsíc"
-
-[12]
-other = "Závazek 12 měsíců"
-
-[12_price]
-other = "od 990 CZK / měsíc"
+other = "Pilotní projekt stojí 25 000 Kč bez DPH. Zařízení je možné zakoupit, nebo pořídit celé řešení jako službu."
 
 [reporting_pbi]
 other = "Reporting dat přes Power BI"
-
-[rest_api]
-other = "Přístup k REST API a Callbackům pro vlastní integraci"
-
-[replacement]
-other = "Bezplatná výměna při poruše do 48 hodin"
-
-[insurance]
-other = "Pojištění proti krádeži a zničení"
-
-[popupar]
-other = "Populární"
-
-[save_50]
-other = "Ušetříte 50 %"
-
-[save_30]
-other = "Ušetříte 30 %"
-
-[from]
-other = "od"
 
 [partners]
 other = "Partner programu vyrobni.report"

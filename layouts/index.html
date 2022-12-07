@@ -13,32 +13,9 @@
           </h1>        
           <p class = "font-20 font-lnh28 pb-20">{{ .Params.perex | safeHTML }}</p>
           <div>
-
-            {{ if eq $currentLang "en"}}
-
             <a href="#meeting" class="smooth cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "make_appointment" }}</a>
-            {{ else }}
-            <a href="#video" class="playVideo cta-button font-lnh54 px-50 mb-30 mb-md-0 d-inline-block font-weight-bold font-font2 font-white bg-orange">{{ i18n "play_video" }}</a>
-            <a href="#meeting" class="smooth cta-button font-lnh54 px-40 mb-30 mb-md-0 d-inline-block font-font2 font-orange font-decoration-underline">{{ i18n "make_appointment" }}</a>
-            {{ end }}
-            
+           
         </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id = "playVideo" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-body">
-          <div class="container-fluid">
-            <div class="row justify-content-center">
-              <div class="col-md-12 text-center youtube">
-                <iframe src="https://www.youtube.com/embed/FHyBZQ3g-2M?modestbranding=1&amp;showinfo=0&amp;rel=0&amp;html5=1&amp;widgetid=2" title="vyrobni.report" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -87,18 +64,15 @@
               {{ $uses := where .Site.RegularPages "Section" "use-cases" }}
               {{ range $uses.ByWeight }}
 
-              <div class="col-12 col-md-6 col-lg-4 d-flex">
-                <span class="articles__item articles__item--3">
-                  <div class="articles__item__image">
-                    <img src="{{ .Params.image_preview }}" alt="{{ .Title | safeHTML }}" class = "w-100" />
-                  </div>
-                
-                  <div class="articles__content articles__content--2">
-                    <h3 class="articles__title articles__title--2">{{ .Title | safeHTML }}</h3>
-                    <p class="articles__text articles__text--2">{{ .Params.description | safeHTML }}</p>
-                  </div>
+              <div class="col-12 col-md-6">
+                <span class="related__item shadow">
+                    <div class="related__item__image">
+                        <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" />
+                    </div>
+                    <div class="related__item__title related__item__title--2 mb-5">{{ .Title }}</div>
+                    <p class="articles__text articles__text--2 pr-10">{{ .Params.short | safeHTML }}</p>
                   </span>
-              </div>
+            </div>
 
               {{ end }}
 
@@ -318,13 +292,13 @@
                         {{ i18n "faq_1_desc" | safeHTML }}
                       </div>
                   </div>
-
+<!--
                   <div class="collapsor__item">
                       <h2 class="collapsor__header">{{ i18n "faq_2" | safeHTML }}</h2>
                       <div class="collapsor__body">
                         {{ i18n "faq_2_desc" | safeHTML }}
                       </div>
-                  </div>
+                  </div>-->
                   <div class="collapsor__item">
                     <h2 class="collapsor__header">{{ i18n "faq_3" | safeHTML }}</h2>
                     <div class="collapsor__body">

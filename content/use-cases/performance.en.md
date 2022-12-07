@@ -1,5 +1,6 @@
 ---
-title: Performance
+title: Production efficiency
+short: Pace, quality, OEE
 description: Easily measure the efficiency of your machines and other equipment in manufacturing, agriculture and other industries.
 image_preview: /_assets/images/use-cases/oee.png
 weight: 1

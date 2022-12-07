@@ -4,4 +4,5 @@ description: Monitor the condition of machines, structures and other objects ove
 image_preview: /_assets/images/use-cases/predictive-maintenance.png
 weight: 20
 full: true
+draft: true
 ---

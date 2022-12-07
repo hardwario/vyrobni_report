@@ -1,5 +1,6 @@
 ---
-title: Podmínky
+title: Environmentální monitoring
+short: Teplota, vlhkost, osvětlení, CO2
 description: Projekty kontroly klimatu ve vnitřních prostorech v&nbsp;zemědělství, průmyslu, potravinářství i pro projekty chytrých firem a domácností.
 image_preview: /_assets/images/use-cases/indoor.png
 weight: 10
