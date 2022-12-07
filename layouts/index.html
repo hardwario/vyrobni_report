@@ -57,28 +57,27 @@
           <div class="font-grayLined font-gray2 font-font2 font-weight-bold font-15"><span>{{ i18n "monitoring_areas" }}</span></div>
       </div>
     </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="articles articles--2 pt-10">
-            <div class="row d-flex align-content-stretch">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 ">
+            <div class="row">
               {{ $uses := where .Site.RegularPages "Section" "use-cases" }}
               {{ range $uses.ByWeight }}
 
               <div class="col-12 col-md-6">
-                <span class="related__item shadow">
-                    <div class="related__item__image">
-                        <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" />
-                    </div>
-                    <div class="related__item__title related__item__title--2 mb-5">{{ .Title }}</div>
-                    <p class="articles__text articles__text--2 pr-10">{{ .Params.short | safeHTML }}</p>
-                  </span>
+                <div class = "row align-items-center">
+                  <div class = "col-3">
+                    <img src="{{ .Params.image_preview }}" alt="{{ .Title }}" class = "w-100" />
+                  </div>
+                  <div class = "col-9">
+                    <h3 class="font-20 font-weight-black font-lnh30">{{ .Title }}</h3>
+                    <p class="font-18 font-lnh26">{{ .Params.short | safeHTML }}</p>
+                  </div>
+                </div>
             </div>
 
               {{ end }}
 
             </div>
-          </div>
-
         </div>
       </div>
     </div>
