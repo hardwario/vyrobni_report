@@ -78,8 +78,8 @@ other = "3. Pilot evaluation"
 [step_3_desc]
 other = "According to pre-agreed criteria, we will evaluate the pilot operation and agree on the way forward."
 
-[pbi_example]
-other = "Example of output in Microsoft Power BI"
+[show_example]
+other = "Show report example"
 
 [step_4]
 other = "4. Sending the device and installation"
@@ -142,7 +142,7 @@ other = "We transmit data over NB-IoT and LTE-M wireless networks. They have gre
 other = "Where will we see the data?"
 
 [faq_4_desc]
-other = "In factory.report, we work with the outputs in Microsoft's Power BI. To see what this might look like, see <a href='https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection' target='_blank'>link</a>. However, if you need to see the data elsewhere, we'll find a way to do it. Then, with the help of our partners, we also offer custom web apps."
+other = "In factory.report, we work with the outputs in Microsoft's Power BI. To see what this might look like, see <a href='https://app.powerbi.com/view?r=eyJrIjoiOGRlNjViMWUtZDVlMi00MDBkLWJkMGYtNWNlMDdlYzRkYjUzIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9' target='_blank'>link</a>. However, if you need to see the data elsewhere, we'll find a way to do it. Then, with the help of our partners, we also offer custom web apps."
 
 [back_home]
 other = "Back to homepage"

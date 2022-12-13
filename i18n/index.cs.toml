@@ -77,8 +77,8 @@ other = "3. Vyhodnocení"
 [step_3_desc]
 other = "Podle předem domluvených kritérií vyhodnotíme pilotní provoz a domluvíme se na dalším postupu."
 
-[pbi_example]
-other = "Příklad výstupu v Microsoft Power BI"
+[show_example]
+other = "Zobrazit ukázku reportu"
 
 [make_appointment]
 other = "Domluvit schůzku"
@@ -129,7 +129,7 @@ other = "Data přenášíme bezdrátovými sítěmi NB-IoT a LTE-M. Mají skvěl
 other = "Kde uvidíme data?"
 
 [faq_4_desc]
-other = "V programu vyrobni.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = 'https://app.powerbi.com/view?r=eyJrIjoiNzIwMTc2Y2YtZWIyZi00ZDk0LWExYTEtNjdiNzcwNTEwNWFjIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9&pageName=ReportSection' target = '_blank'>odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
+other = "V programu vyrobni.report pracujeme s výstupy v Power BI od Microsoftu. Jak to může vypadat se podívejte na <a href = 'https://app.powerbi.com/view?r=eyJrIjoiOGRlNjViMWUtZDVlMi00MDBkLWJkMGYtNWNlMDdlYzRkYjUzIiwidCI6IjEzNTA4YzA1LTFiMjMtNDk2ZS05NzlkLTZjOTlkODVjMmYxNyIsImMiOjl9' target = '_blank'>odkaze</a>. Pokud však potřebujete data vidět jinde, najdeme cestu, jak to udělat. S pomocí našich partnerů pak nabízíme také vlastní webové aplikace."
 
 [back_home]
 other = "Zpět na úvodní stranu"
