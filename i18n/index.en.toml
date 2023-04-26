@@ -114,6 +114,9 @@ other = "Partner of factory.report"
 [ceo]
 other = "CMO and co-founder"
 
+[cso]
+other = "Chief Sales Officer"
+
 [let_contact]
 other = "Leave me a contact, I'll get back to you"
 
@@ -150,7 +153,7 @@ other = "Back to homepage"
 [operated_by]
 other = "The factory.report is operated by"
 
-[vat_id] 
+[vat_id]
 other = "VAT ID"
 
 [company_id]

@@ -101,6 +101,9 @@ other = "Partner programu vyrobni.report"
 [ceo]
 other = "CMO a spoluzakladatel"
 
+[cso]
+other = "Chief Sales Officer"
+
 [let_contact]
 other = "Nechte mi na vás kontakt, ozvu se"
 
@@ -137,7 +140,7 @@ other = "Zpět na úvodní stranu"
 [operated_by]
 other = "vyrobni.report provozuje"
 
-[vat_id] 
+[vat_id]
 other = "DIČ"
 
 [company_id]
